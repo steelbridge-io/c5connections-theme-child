@@ -100,25 +100,6 @@ get_header();
 						endwhile;
 						echo '</div>';
 					endif; ?>
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
 					
 					<?php
 					while ( have_posts() ) :
