@@ -1,1 +1,60 @@
-/* Theme Name: c5connections Child Theme Theme URI: https://c5connections.org Author: Chris Parsons Author URI: https://steelbridge.io Template: c5connections-theme Description: Child theme for c5connections Theme Version: 1.0 */
+/*
+ Theme Name: c5connections Child Theme
+ Theme URI: https://c5connections.org
+ Author: Chris Parsons
+ Author URI: https://steelbridge.io
+ Template: c5connections-theme
+ Description: Child theme for c5connections Theme
+ Version: 1.0
+ --------------------------------------------------------------
+# Supports
+--------------------------------------------------------------*/
+/* Front Page
+--------------------------------------------- */
+#front-page {
+  background-color: #f1f1f1;
+  padding: 2.618em 0;
+  margin-bottom: 3.618em;
+}
+
+#front-page-post-grid {
+  margin: 2.618em auto;
+}
+#front-page-post-grid .card {
+  margin: 3px;
+  padding: 1em;
+}
+
+#front-page-announcement-grid {
+  margin: 2.618em auto;
+}
+#front-page-announcement-grid .card {
+  margin: 3px;
+  padding: 1em;
+}
+
+/* Global
+--------------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+/* Single.php
+--------------------------------------------- */
+#daily-story-container .card {
+  border: none;
+  padding: 1em;
+}
+#daily-story-container .daily-story-text.well {
+  margin: 1.618em auto;
+}
+
+.published {
+  margin-right: 5px;
+}
+
+.published, .author {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
