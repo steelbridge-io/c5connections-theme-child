@@ -26,11 +26,13 @@
 }
 
 #front-page-announcement-grid,
-#front-page-weeklyplan-grid {
+#front-page-weeklyplan-grid,
+#front-page-exploration-grid {
   margin: 2.618em auto;
 }
 #front-page-announcement-grid .card,
-#front-page-weeklyplan-grid .card {
+#front-page-weeklyplan-grid .card,
+#front-page-exploration-grid .card {
   margin: 3px;
   padding: 1em;
 }
