@@ -25,12 +25,14 @@
 #front-page-announcement-grid,
 #front-page-weeklyplan-grid,
 #front-page-exploration-grid,
-#front-page-news-notes-grid {
+#front-page-news-notes-grid,
+#front-page-flow-of-the-day-grid {
   margin: 2.618em auto; }
   #front-page-announcement-grid .card,
   #front-page-weeklyplan-grid .card,
   #front-page-exploration-grid .card,
-  #front-page-news-notes-grid .card {
+  #front-page-news-notes-grid .card,
+  #front-page-flow-of-the-day-grid .card {
     margin: 3px;
     padding: 1em; }
 
