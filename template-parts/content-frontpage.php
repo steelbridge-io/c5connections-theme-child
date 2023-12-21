@@ -9,15 +9,13 @@
 
 ?>
 
-
-
 <div id="front-page-posts" class="card col-lg-3">
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header">
-            <h3 class="entry-title">
+            <h4 class="entry-title">
                 <a href="<?php echo esc_url(get_permalink()); ?>"><?php the_title(); ?></a>
-            </h3>
+            </h4>
 			<?php
 			$post_id   = get_the_ID(); // Replace with your post ID.
 			$author_id = get_post_field( 'post_author', $post_id );
